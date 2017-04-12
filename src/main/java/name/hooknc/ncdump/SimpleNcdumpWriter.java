@@ -8,7 +8,7 @@ import ucar.unidata.io.InMemoryRandomAccessFile;
 import java.io.StringWriter;
 
 @Configuration
-public class SimpleNcdumpWritter implements Ncdump {
+public class SimpleNcdumpWriter implements Ncdump {
 
     @Override
     public String dumpHeader(byte[] bytes) {
